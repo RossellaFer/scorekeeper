@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+color: rgba(246,36,89,1);
+}
+
+#container {
+	background: #f7f7f7;
+	width: 600px;
+	margin: 100px auto;
+	padding: 10px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+li {
+	list-style: none;
+	background-color: rgba(246,36,89,1);
+	color: white;
+	font-weight: bold;
+	padding: 30px;
+	text-align: center;
+	margin: 8px;
+	width: 30%;
+}
+
+#score {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.completed {
+	background-color: rgba(246,36,89,0.4);
+	text-decoration: line-through;
+}
